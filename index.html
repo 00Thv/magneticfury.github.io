@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnetic Fury: The May 2024 Storm</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        /* Full-page background image */
+        .bg {
+            background-image: url('/img/5.png');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            position: relative;
+        }
+
+        /* Overlay to make text readable */
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6); /* darker overlay for better contrast */
+        }
+
+        /* Catchy text in the middle of the page */
+        .catchy-text {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+
+        .catchy-text h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .catchy-text p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        /* Welcome button styling */
+        .email-form {
+            position: absolute;
+            top: 66%; /* 2/3 of the way down */
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .email-form input[type="submit"] {
+            padding: 15px 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 15px; /* Curly edges */
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .email-form input[type="submit"]:hover {
+            background-color: #333; /* Darker on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="overlay"></div>
+        
+        <div class="catchy-text">
+            <h1><b>Magnetic Fury: The May 2024 Storm</b></h1>
+            <p>Experience the unparalleled power of space in action! In May 2024, a geomagnetic storm wreaked havoc on Earth's tech, causing global disruptions. Dive into the science behind this cosmic event and discover its extraordinary effects on our modern world.</p>
+        </div>
+
+        <form class="email-form" action="second.html" method="GET">
+            <input type="submit" value="Welcome">
+        </form>
+    </div>
+</body>
+</html>
